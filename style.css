@@ -53,17 +53,12 @@ h2 {
     font-style: italic;
 }
 
-.link-medium {
-    background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
-    color: #636363;
-    font-weight: lighter;
-    font-size: 25px;
-    font-style: italic;
-}
-
 a {
     text-decoration: none;
     color: #4352A1;
+}
+a:hover {
+    background-image: linear-gradient(to bottom, rgb(0, 87, 30), rgb(0, 87, 30));
 }
 
 @media (max-width: 1200px) {
